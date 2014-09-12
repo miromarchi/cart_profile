@@ -1,0 +1,137 @@
+; Packaging information for cart
+name = cart_profile
+description = "The profile for cubanartworldwide.com."
+exclusive = 1
+core = 7.x
+
+; ------------
+; Dependencies
+; ------------
+
+; Drupal Core
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+
+; Chaos tool suite
+dependencies[] = ctools
+dependencies[] = page_manager
+
+; Panels
+dependencies[] = panelizer
+dependencies[] = panels
+; dependencies[] = panels_ipe
+
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+dependencies[] = date_ical
+dependencies[] = date_all_day
+dependencies[] = calendar
+
+; Geo
+dependencies[] = geocoder
+dependencies[] = geofield
+dependencies[] = geophp
+dependencies[] = leaflet
+dependencies[] = leaflet_markercluster
+dependencies[] = leaflet_more_maps
+dependencies[] = ip_geoloc
+dependencies[] = staticmap
+
+; Administration
+dependencies[] = diff
+dependencies[] = libraries	
+dependencies[] = pathauto
+dependencies[] = entity
+dependencies[] = entity_view_mode
+; dependencies[] = save_draft
+dependencies[] = token
+dependencies[] = entity_token
+dependencies[] = transliteration
+; dependencies[] = uuid
+
+; User interface
+dependencies[] = jquery_update
+; dependencies[] = wysiwyg
+
+; Features
+dependencies[] = features
+dependencies[] = strongarm
+
+; Other
+; dependencies[] = flag
+dependencies[] = content_complete
+
+; Fields
+dependencies[] = entityreference
+dependencies[] = entityreference_autocreate
+dependencies[] = references_dialog
+dependencies[] = field_group
+dependencies[] = link
+; dependencies[] = color_field
+dependencies[] = addressfield
+dependencies[] = addressfield_tokens
+
+; Media
+dependencies[] = file_entity
+dependencies[] = manual_crop
+; dependencies[] = colorbox
+
+; Input filters
+; dependencies[] = wysiwyg_filter
+
+; Search
+; dependencies[] = search_api
+; dependencies[] = search_api_db
+
+; Views
+dependencies[] = views
+; dependencies[] = views_bulk_operations
+dependencies[] = views_ui
+dependencies[] = masonry
+dependencies[] = masonry_views
+; dependencies[] = better_exposed_filters
+
+; Feeds
+dependencies[] = feeds
+dependencies[] = feeds_ui
+dependencies[] = feeds_tamper
+dependencies[] = job_scheduler
+
+; Cart features
+dependencies[] = cart_commons
+dependencies[] = cart_type_person
+dependencies[] = cart_type_exhibit
+dependencies[] = cart_type_org
+dependencies[] = cart_type_catalog
+dependencies[] = cart_calendar
+dependencies[] = cart_map
+dependencies[] = cart_import_ical
+dependencies[] = cart_views_pages
+
+dependencies[] = 
+
+files[] = cart_profile.profile
