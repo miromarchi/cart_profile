@@ -32,6 +32,7 @@ dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = update
 dependencies[] = user
+dependencies[] = php
 
 ; Chaos tool suite
 dependencies[] = ctools
@@ -76,6 +77,7 @@ dependencies[] = transliteration
 ; User interface
 dependencies[] = jquery_update
 ; dependencies[] = wysiwyg
+dependencies[] = simplify
 
 ; Features
 dependencies[] = features
@@ -99,6 +101,7 @@ dependencies[] = addressfield_tokens
 dependencies[] = file_entity
 dependencies[] = manual_crop
 ; dependencies[] = colorbox
+dependencies[] = filefield_sources
 
 ; Input filters
 ; dependencies[] = wysiwyg_filter
