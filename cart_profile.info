@@ -9,6 +9,7 @@ core = 7.x
 ; ------------
 
 ; Drupal Core
+dependencies[] = block
 dependencies[] = color
 dependencies[] = comment
 dependencies[] = dblog
@@ -27,6 +28,7 @@ dependencies[] = path
 dependencies[] = rdf
 dependencies[] = search
 dependencies[] = shortcut
+dependencies[] = statistics
 dependencies[] = system
 dependencies[] = taxonomy
 dependencies[] = text
@@ -86,6 +88,7 @@ dependencies[] = strongarm
 ; Other
 ; dependencies[] = flag
 dependencies[] = content_complete
+dependencies[] = menu_attributes
 
 ; Fields
 dependencies[] = entityreference
@@ -117,6 +120,7 @@ dependencies[] = views_ui
 dependencies[] = masonry
 dependencies[] = masonry_views
 ; dependencies[] = better_exposed_filters
+; dependencies[] = views_autocomplete_filters
 
 ; Feeds
 dependencies[] = feeds
@@ -134,7 +138,5 @@ dependencies[] = cart_calendar
 dependencies[] = cart_map
 dependencies[] = cart_import_ical
 dependencies[] = cart_views_pages
-
-dependencies[] = 
 
 files[] = cart_profile.profile
