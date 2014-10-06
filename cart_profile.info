@@ -76,6 +76,7 @@ dependencies[] = token
 dependencies[] = entity_token
 dependencies[] = transliteration
 dependencies[] = uuid
+dependencies[] = metatag
 
 ; User interface
 dependencies[] = jquery_update
