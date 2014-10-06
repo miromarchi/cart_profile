@@ -31,6 +31,7 @@ dependencies[] = shortcut
 dependencies[] = statistics
 dependencies[] = system
 dependencies[] = taxonomy
+dependencies[] = toolbar
 dependencies[] = text
 dependencies[] = update
 dependencies[] = user
@@ -74,7 +75,7 @@ dependencies[] = entity_view_mode
 dependencies[] = token
 dependencies[] = entity_token
 dependencies[] = transliteration
-; dependencies[] = uuid
+dependencies[] = uuid
 
 ; User interface
 dependencies[] = jquery_update
@@ -83,6 +84,7 @@ dependencies[] = simplify
 
 ; Features
 dependencies[] = features
+dependencies[] = fe_block
 dependencies[] = strongarm
 
 ; Other
@@ -102,7 +104,7 @@ dependencies[] = addressfield_tokens
 
 ; Media
 dependencies[] = file_entity
-dependencies[] = manual_crop
+dependencies[] = manualcrop
 ; dependencies[] = colorbox
 dependencies[] = filefield_sources
 
