@@ -12,7 +12,3 @@ if (!function_exists("system_form_install_select_profile_form_alter")) {
     }
   }
 }
-function cart_profile_form_install_configure_form_alter(&$form, $form_state) {
-  // Pre-populate the site name
-  $form['site_information']['site_name']['#default_value'] = t('Cuban Art Worldwide');
-}
