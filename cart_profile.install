@@ -131,5 +131,19 @@ function cart_profile_install() {
     ->condition('name', 'seven')
     ->execute();
   variable_set('admin_theme', 'seven');
-  variable_set('node_admin_theme', '1');
+  variable_set('node_admin_theme', '0');
+
+  // disable bartik
+  // theme_disable(array('bartik'));
+  
+  // enable default theme.
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', 'cart_theme')
+    ->execute();
+  variable_set('theme_default', 'cart_theme');
+  
 }
+
+
