@@ -142,13 +142,23 @@ function cart_profile_install() {
   // Disable the default Bartik theme
   theme_disable(array('bartik'));
   
+  // create taxonomy vocabulary cart_org_types
+  $description = st('Organization types'); 
+  $vocabulary = (object) array( 
+    'name' => 'Organization types', 
+    'description' => $description, 
+    'machine_name' => 'cart_org_types', 
+    'help' => '', 
+  ); 
+  taxonomy_vocabulary_save($vocabulary);  
+  
   // create structural term venue
   $vocabulary_id = db_select('taxonomy_vocabulary', 't') 
   ->condition('t.machine_name','cart_org_types', '=') 
   ->fields('t', array('vid')) 
   ->execute() 
   ->fetchField(); 
- 
+  var_dump($vocabulary_id);
   $term = new stdClass; 
   $term->vid = $vocabulary_id; 
   $term->name = 'venue'; 
