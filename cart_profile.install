@@ -142,5 +142,16 @@ function cart_profile_install() {
   // Disable the default Bartik theme
   theme_disable(array('bartik'));
   
+  // create structural term venue
+  $vocabulary_id = db_select('taxonomy_vocabulary', 't') 
+  ->condition('t.machine_name','cart_org_types', '=') 
+  ->fields('t', array('vid')) 
+  ->execute() 
+  ->fetchField(); 
+ 
+  $term = new stdClass; 
+  $term->vid = $vocabulary_id; 
+  $term->name = 'venue'; 
+  taxonomy_term_save($term);
   
 }
