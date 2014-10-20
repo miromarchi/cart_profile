@@ -20,6 +20,7 @@ dependencies[] = file
 dependencies[] = filter
 dependencies[] = image
 dependencies[] = list
+dependencies[] = locale
 dependencies[] = menu
 dependencies[] = node
 dependencies[] = number
@@ -75,9 +76,10 @@ dependencies[] = entity_view_mode
 dependencies[] = token
 dependencies[] = entity_token
 dependencies[] = transliteration
-dependencies[] = uuid
+; dependencies[] = uuid
 dependencies[] = metatag
 dependencies[] = imagecache_token
+dependencies[] = module_filter
 
 ; User interface
 dependencies[] = jquery_update
@@ -96,13 +98,13 @@ dependencies[] = menu_attributes
 
 ; Fields
 dependencies[] = entityreference
-dependencies[] = entityreference_autocreate
+; dependencies[] = entityreference_autocreate
 dependencies[] = references_dialog
 dependencies[] = field_group
 dependencies[] = link
 ; dependencies[] = color_field
-dependencies[] = addressfield
-dependencies[] = addressfield_tokens
+; dependencies[] = addressfield
+; dependencies[] = addressfield_tokens
 
 ; Media
 dependencies[] = file_entity
